@@ -174,10 +174,4 @@ public class Panel extends JPanel {
 		add(jPlay);
 		add(kPlay);
 	}
-	
-	@Override
-	public void paintComponent(Graphics g) {
-		super.paintComponent(g);
-		
-	}
 }
