@@ -5,7 +5,6 @@ public class Launch {
 	static JFrame frame = new JFrame("Dan Games Launcher");
 	
 	public static void main(String[] args) throws Exception {
-		
 		JPanel panel = new Panel();
 		
 		frame.add(panel);

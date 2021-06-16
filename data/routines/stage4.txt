@@ -1,76 +1,74 @@
 routine 411
-	787	hyellow1
-;
-routine 412
-	727	hyellow1
-;
-routine 413
-	667	hyellow1
-;
-routine 414
-	607	hyellow1
-;
-routine 415
-	547	hyellow1
-;
-routine 416
-	487	hyellow1
-;
-routine 417
-	427	hyellow1
-;
-routine 418
-	367	hyellow1
+	360	hyellow1
+	260	newhyellow1
+	100	newhyellow1
+	100	newhyellow1
 ;
 
 routine 421
-	787	hgreen1
+	200	hgreen1
+	100r2	newhgreen1
 ;
 routine 422
-	727	hgreen1
+	250	hgreen1
+	100r2	newhgreen1
 ;
 routine 423
-	667	hgreen1
+	300	hgreen1
+	100r2	newhgreen1
 ;
 routine 424
-	607	hgreen1
+	350	hgreen1
+	100r2	newhgreen1
 ;
 routine 425
-	547	hgreen1
+	400	hgreen1
+	100r2	newhgreen1
 ;
 routine 426
-	487	hgreen1
+	450	hgreen1
+	100r2	newhgreen1
 ;
 routine 427
-	427	hgreen1
+	500	hgreen1
+	100r2	newhgreen1
 ;
 routine 428
-	367	hgreen1
+	550	hgreen1
+	100r2	newhgreen1
 ;
 
 routine 431
-	787	hyellow2
+	200	hyellow2
+	100r2	hyellow2
 ;
 routine 432
-	727	hyellow2
+	250	hyellow2
+	100r2	hyellow2
 ;
 routine 433
-	667	hyellow2
+	300	hyellow2
+	100r2	hyellow2
 ;
 routine 434
-	607	hyellow2
+	350	hyellow2
+	100r2	hyellow2
 ;
 routine 435
-	547	hyellow2
+	400	hyellow2
+	100r2	hyellow2
 ;
 routine 436
-	487	hyellow2
+	450	hyellow2
+	100r2	hyellow2
 ;
 routine 437
-	427	hyellow2
+	500	hyellow2
+	100r2	hyellow2
 ;
 routine 438
-	367	hyellow2
+	550	hyellow2
+	100r2	hyellow2
 ;
 
 routine 441
@@ -98,24 +96,31 @@ routine 448
 	367	hgreen3
 ;
 
+routine new411
+	80r6	newsred1
+;
+
 routine 451
-	380		m9pinkD2	32
-	2r12		m9redD2
+	140		m9pinkD2	32
+	2r24		m9redD2
 	10r2	m9pinkD2	32
 	120		m9pinkD2	32
-	2r12		m9redD2
+	2r24		m9redD2
 	10r2	m9pinkD2	32
 	120		m9pinkD2	32
-	2r12		m9redD2
+	2r24		m9redD2
 	10r2	m9pinkD2	32
 	120		m9pinkD2	32
-	2r12		m9redD2
+	2r24		m9redD2
 	10r2	m9pinkD2	32
 	120		m9pinkD2	32
-	2r12		m9redD2
+	2r24		m9redD2
 	10r2	m9pinkD2	32
 	120		m9pinkD2	32
-	2r12		m9redD2
+	2r24		m9redD2
+	10r2	m9pinkD2	32
+	120		m9pinkD2	32
+	2r24		m9redD2
 	10r2	m9pinkD2	32
 ;
 

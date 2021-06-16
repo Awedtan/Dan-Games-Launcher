@@ -1,4 +1,5 @@
 package helletbull;
+
 import java.awt.geom.*;
 
 public class Pickup extends DObject {
@@ -56,11 +57,10 @@ public class Pickup extends DObject {
 		if (Maths.checkInBounds(getBounds(), -20) != -1)
 			kill();
 		
-		if (Maths.distanceTo(getBounds(), Player.model.getBounds()) < Player.grazeRadius) // Only checks for collision when within the player's graze radius
-			if (getBounds().intersects(Player.model.getBounds())) {
-				kill();
-				Player.addScore(value);
-				Game.playClip(pickupClip);
-			}
+		if (Maths.distanceTo(getBounds(), Player.model.getBounds()) < Player.grazeRadius + 20) { // Only checks for collision when within the player's graze radius
+			kill();
+			Player.addScore(value);
+			Game.playClip(pickupClip);
+		}
 	}
 }

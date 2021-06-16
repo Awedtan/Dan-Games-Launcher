@@ -82,11 +82,17 @@ routine 372
 ;
 
 routine 373
-	100r4	m5orangeD		40
+	100	m5orangeD	40
+	100	m5redD		40
+	100	m5orangeD	40
+	100	m5redD		40
 ;
 
 routine 381
-	160r4	m5orangeD		50
+	160	m5orangeD	80
+	160	m5redD		80
+	160	m5orangeD	80
+	160	m5redD		80
 ;
 
 ?

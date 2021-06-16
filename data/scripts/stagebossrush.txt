@@ -1,5 +1,5 @@
 !
-?
+
 script boss5
 	120	boss5	boss5	3,-2
 ;

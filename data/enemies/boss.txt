@@ -22,7 +22,7 @@ enemy boss3
 enemy boss4
 	sprite		edward
 	pathing		5,2,6 / 3800 / 3,-2
-	health		2200
+	health		2000
 	boss		true
 ;
 

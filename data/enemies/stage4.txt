@@ -1,15 +1,31 @@
 enemy 411
 	sprite		enemgreen
-	pathing		5,0 / 800 / 0,0
+	pathing		5,0,4 / 800 / 0,0,3
 	health		80
 	offset		true
 ;
 
 enemy 412
 	sprite		enemyellow
-	pathing		-5,0 / 800 / 0,0
+	pathing		-5,0,4 / 800 / 0,0,3
 	health		80
 	offset		true
+;
+
+enemy new411
+	sprite		enemred
+	pathing		5,0,-2,4
+	health		30
+	flatness	0.003
+	offset		false
+;
+
+enemy new412
+	sprite		enemblue
+	pathing		5,0,12,4
+	health		30
+	flatness	0.003
+	offset		false
 ;
 
 enemy 451

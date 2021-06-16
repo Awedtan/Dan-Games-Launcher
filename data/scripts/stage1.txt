@@ -1,5 +1,5 @@
 !
-?
+
 script 11
 	60	111	empty	2,-1
 	60	111	empty	2,-1

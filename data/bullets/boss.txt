@@ -245,7 +245,7 @@ bullet m8whiteH
 	sprite			mb8white
 	velocity		1.8
 	maxspeed		4.0
-	homing			200
+	homing			400
 	acceleration	0.01
 ;
 

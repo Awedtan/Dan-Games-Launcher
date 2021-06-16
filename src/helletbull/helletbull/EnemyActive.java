@@ -1,4 +1,5 @@
 package helletbull;
+
 import java.awt.*;
 import java.awt.geom.*;
 import java.util.*;
@@ -32,6 +33,7 @@ public class EnemyActive extends Enemy {
 		isBoss = enem.isBoss;
 		
 		this.routine = Game.routineMap.get(routine).clone(); // Retrieves the bullet routine
+		
 		points = Parser.parsePathing(path, origin, flatness, offset, false); // Creates the queue of coordinates from the pathing string
 		
 		Point2D.Double p = points.removeFirst(); // Moves to the first point
@@ -126,7 +128,7 @@ public class EnemyActive extends Enemy {
 			EnemyProjectile.create(routine.proj, this, routine.amount); // Creates a circle of bullets
 		else
 			EnemyProjectile.create(routine.proj, this); // Creates a single bullet
-		
+			
 		Game.playClip(shotClip);
 		lastSpawnFrame = Game.frameCount;
 	}
