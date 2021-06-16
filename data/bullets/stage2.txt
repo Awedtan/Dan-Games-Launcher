@@ -1,0 +1,65 @@
+bullet b5redA
+	sprite		bb5red
+	inaccuracy	1
+	aimed		true
+	velocity	4.0
+	variance	0.5
+;
+
+bullet m1redA1
+	sprite		mb1red
+	inaccuracy	5
+	velocity	2.0
+	turn		0.4
+	lifetime	240
+	secondary	m1redD
+;
+bullet m1redA2
+	sprite		mb1red
+	inaccuracy	5
+	velocity	2.0
+	turn		-0.4
+	lifetime	240
+	secondary	m1redD
+;
+bullet m1redD
+	sprite		mb1red
+	velocity	2.0
+	variance	0.5
+;
+
+
+?
+
+defaults:
+String name = arr[0].split(" ")[1];
+String sprite = "zy";
+int inaccuracy = 0;
+double angle = 0;
+double turn = 0;
+boolean aimed = false;
+double velocity = 1;
+double acceleration = 0;
+double max = 1;
+double min = 0;
+int homing = 0;
+int lifetime = -1;
+
+template:
+bullet name
+	sprite			zy
+	inaccuracy		0
+	angle			0.0
+	turn			0.0
+	aimed			false
+	velocity		1.0
+	variance		0.0
+	acceleration	0.0
+	maxspeed		5.0
+	minspeed		0.0
+	homing			0
+	lifetime		-1
+	gravity			false
+	border			false
+	secondary		name
+;

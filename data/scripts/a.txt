@@ -1,0 +1,7 @@
+!
+?
+script test
+	120	test	test	4,4
+;
+
+?

@@ -1,0 +1,6 @@
+Sam, 507
+Daniel, 331
+Zhenyang, -4270
+Max, -4322
+riceName, -11085
+dan man, -777

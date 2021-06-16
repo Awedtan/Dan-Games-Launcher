@@ -1,0 +1,19 @@
+!
+?
+script boss5
+	120	boss5	boss5	3,-2
+;
+
+script boss6
+	120	boss6	boss6	3,-2
+;
+
+script boss7
+	130	boss7	boss7	3,-2
+;
+
+?
+
+script edward
+	120	edward	edward	3,-2
+;
