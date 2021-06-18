@@ -41,7 +41,7 @@ public class Panel extends JPanel {
 		};
 		JLabel bPlay = new JLabel("PLAY", SwingConstants.CENTER) {
 			{
-				setBounds(680, 425, 120, 50);
+				setBounds(680, 700, 120, 50);
 				setFont(new Font("HYWenHei-85W", Font.PLAIN, 28));
 				setBackground(Color.BLACK);
 				setForeground(Color.RED);
@@ -51,12 +51,14 @@ public class Panel extends JPanel {
 					}
 					
 					public void mouseEntered(MouseEvent e) {
-						setOpaque(true);
+						// setOpaque(true);
+						setForeground(Color.WHITE);
 						repaint();
 					}
 					
 					public void mouseExited(MouseEvent e) {
-						setOpaque(false);
+						// setOpaque(false);
+						setForeground(Color.RED);
 						repaint();
 					}
 				});
@@ -157,11 +159,11 @@ public class Panel extends JPanel {
 			}
 		};
 		
+		add(bPlay);
 		add(iPlay);
 		add(aImg);
 		add(aPlay);
 		add(bImg);
-		add(bPlay);
 		add(cPlay);
 		add(cImg);
 		add(dPlay);
